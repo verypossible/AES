@@ -5,7 +5,7 @@
 #ifndef __AES_CONFIG_H__
 #define __AES_CONFIG_H__
 
-#if  (defined(__APPLE__) || defined(__linux) || defined(linux)) && !defined(__ARDUINO_X86__)
+#if  (defined(__linux) || defined(linux)) && !defined(__ARDUINO_X86__)
 
   #define AES_LINUX
 
